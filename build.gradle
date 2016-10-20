@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+archivesBaseName = "roborio-tunnel"
+
+jar {
+    manifest {
+        attributes("Main-Class": "jaci.frc.ds.Main")
+    }
+}
